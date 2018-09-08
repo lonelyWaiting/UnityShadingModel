@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: LambertAndLambert
+  m_Name: LambertAndSpecular
   m_Shader: {fileID: 4800000, guid: eb2d50bf3d6371248989e2374e22169c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

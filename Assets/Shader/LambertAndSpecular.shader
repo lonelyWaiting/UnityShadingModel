@@ -63,11 +63,11 @@
 
 				// Diffuse Implment(Lambert)
 				float4 diffuse     = tex2D(_DiffuseTex, i.uv);
-				float nl           = max(_Ambient, dot(normalDirection, -lightDirection));
+				float nl           = max(_Ambient, dot(normalDirection, lightDirection));
 				float4 diffuseTerm = nl * _Color * diffuse * _LightColor0;
 
 				// Specular implment(Phong)
-				float3 reflectionDirection = reflect(lightDirection, normalDirection);
+				float3 reflectionDirection = reflect(-lightDirection, normalDirection);
 				float3 specularDot         = max(0.0f, dot(viewDirection, reflectionDirection));
 				float3 specular            = pow(specularDot, _Shininess);
 				float4 specularTerm        = float4(specular, 1) * _SpecularColor * _LightColor0;
