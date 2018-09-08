@@ -10,7 +10,7 @@
 	}
 	SubShader
 	{
-		Tags { "RenderType"="ForwardBase" }
+		Tags { "LightMode"="ForwardBase" }
 		LOD 100
 
 		Pass
