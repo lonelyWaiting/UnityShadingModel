@@ -155,7 +155,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 1037bcba264b2744e9c1c55c8c419861, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0ddba812c68327341b2980916b9e14ae, type: 2}
+      objectReference: {fileID: 2100000, guid: 0cbb9d20167439345b31f50424917804, type: 2}
     - target: {fileID: 400000, guid: 1037bcba264b2744e9c1c55c8c419861, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -90
