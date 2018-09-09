@@ -61,8 +61,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\CameraControl.cs" />
     <Compile Include="Assets\Script\PostEffects.cs" />
     <None Include="Assets\Shader\SurfaceShaderNormalMap.shader" />
+    <None Include="Assets\Shader\CookTorranceSurface.shader" />
     <None Include="Assets\Shader\SpecularShaderForwardAdd.shader" />
     <None Include="Assets\Shader\SurfaceShaderCustomPhong.shader" />
     <None Include="Assets\Shader\ModifiedPhong.shader" />
