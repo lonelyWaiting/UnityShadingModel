@@ -81,7 +81,7 @@
 		inline float3 CookTorranceSpec(float NdotL, float NdotV, float LdotH, float NdotH, float roughness, float F0)
 		{
 			float DFG = Fresnel(F0, NdotV) * G(roughness, NdotL, NdotV) * NDF(roughness, NdotH);
-			return DFG * NdotL;
+			return DFG * NdotL * PI;
 		}
 
 		inline float3 DisneyDiffuse(float3 albedo, float NdotL, float NdotV, float LdotH, float roughness)
